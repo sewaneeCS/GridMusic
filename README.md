@@ -1,2 +1,3 @@
-# GridMusic
-Generative music platform with simple synthesis
+# README #
+
+GridMusic fork of scarl and noscar's work

@@ -1,0 +1,25 @@
+TODO
+
+ - The random number generator used for this is not
+   weighted, and it would be interesting to experiment with
+   a guassian distribution, and maybe something like perlin noise
+
+- There is a slight bug in the duration calculation
+   it occurs when a single grid point is selected after a long duration
+   note. It is very repeatable, and hopefully won't be too much of a 
+   bear to track down.
+
+ - The gui is still a little unwieldy and the code is gross.
+   that clean up is a first priority
+
+ - The controls for modifying the probablities used for the 
+   expansion have not yet been added to the gui, and that is another
+   first priority issue that is basic to the functionality of the tool
+
+ - The class organization used here is questionable, and should not be
+   taken as canon for any further versions. Matrix is not what I'm looking for
+   The basic organization of the Scale/Sequence will not change.
+   You may be asking why I bothered with a Note class if the Sequence handles
+   pitches and durations as separate arrays. That redundancy will probably persist
+   for a little while longer, as in several cases it is easier to manage the two
+   seqarately. 
